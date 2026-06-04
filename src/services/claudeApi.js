@@ -1,7 +1,7 @@
 import Anthropic from '@anthropic-ai/sdk';
 import { parseSources, deduplicateSources } from './sourceParser';
 
-const MODEL = 'claude-sonnet-4-20250514';
+const MODEL = 'claude-sonnet-4-5';
 
 const SYSTEM_PROMPTS = {
   Formation: `Tu es SupplyChainBot CI, un expert en logistique et supply chain spécialisé sur la Côte d'Ivoire.
